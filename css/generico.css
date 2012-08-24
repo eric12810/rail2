@@ -63,7 +63,7 @@ header {
 }
 
 #nav-current {
-	background-image: url(../../images/menu_bg_active.png);
+	background-image: url(images/menu_bg_active.png);
 	color: #fff;
 }
 .topNav {
