@@ -1,0 +1,175 @@
+<!doctype html>
+<!-- Conditional comment for mobile ie7 blogs.msdn.com/b/iemobile/ -->
+<!--[if IEMobile 7 ]>    <html class="no-js iem7" lang="en"> <![endif]-->
+<!--[if (gt IEMobile 7)|!(IEMobile)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+<meta charset="utf-8">
+<title>Generico</title>
+<meta name="description" content="">
+
+<!-- Mobile viewport optimization h5bp.com/ad -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width">
+
+<!-- Home screen icon  Mathias Bynens mathiasbynens.be/notes/touch-icons -->
+<!-- For third generation iPad Retina Display -->
+<link rel="apple-touch-icon" sizes="144x144" href="img/touch/icon144.png" />
+<!-- For iPhone 4 with high-resolution Retina display: -->
+<link rel="apple-touch-icon" sizes="114x114" href="img/touch/icon114.png" />
+<!-- For first-generation iPad: -->
+<link rel="apple-touch-icon" sizes="72x72" href="img/touch/icon72.png" />
+<!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+<link rel="apple-touch-icon" href="img/touch/icon57.png" />
+<!-- For nokia devices: -->
+<link rel="shortcut icon" href="img/touch/icon.png" />
+
+<!-- iOS web app, delete if not needed. https://github.com/h5bp/mobile-boilerplate/issues/94 -->
+ <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+<!-- The script prevents links from opening in mobile safari. https://gist.github.com/1042026 -->
+<script>(function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(d.href.indexOf("http")||~d.href.indexOf(e.host))&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone")</script>
+
+<!-- Mobile IE allows us to activate ClearType technology for smoothing fonts for easy reading -->
+<meta http-equiv="cleartype" content="on">
+
+<!-- more tags for your 'head' to consider h5bp.com/d/head-Tips -->
+
+<!-- Main Stylesheet -->
+<link rel="stylesheet" href="css/style.css">
+
+<!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
+<script src="js/libs/modernizr-2.0.6.min.js"></script>
+<link href="css/generico.css" rel="stylesheet" type="text/css">
+
+<style type="text/css">
+      dl dd {
+		  margin: 0;
+		  height:0;
+		  overflow:hidden;
+		  -webkit-transition:height 1s ease;
+	  }
+	  dl dd:target {
+		  height:auto;
+	  }
+	  @media (-webkit-transition) {
+		  dl dd:target
+		  {
+			  height: auto;
+		  }
+	  }
+   </style>
+</head>
+
+<body>
+<div id="container">
+  <header >
+    <nav class="topNav" align="right" > <a href="#">Book Visit</a> | <a href="#">View prospectus</a> | <a href="#">Calendar</a> | <a href="#">Gallery</a> | <a href="#">News</a> </nav>
+    <div style="height:120px; width:100%;">
+      <div style="width:33%; float:left;"> <img  src="../images/logo.png" /> </div>
+      <div style="float:right; width:60%; height:100%">
+        <nav class="tab"> <a  href="index.html">The School</a> <a  href="admission.html">Admission</a> <a style="color:#1791a5;" href="junior.html">Junior</a> <a style="color:#1791a5;" href="senior.html">Senior</a> <a style="color:#1791a5;" href="sixth.html">Sixth Form</a> <a id="nav-current" href="#">Contact Us</a> </nav>
+      </div>
+    </div>
+  </header>
+  <div id="main" role="main">
+   <a  href="http://goo.gl/maps/TFtuA"><img style="padding-top:10px;" src="../images/map.jpg" width="100%"/></a>
+  
+  <style>
+  input{
+	  margin-bottom:8px;}
+	  select{
+	  margin-bottom:8px;}
+	  textarea{
+	  margin-bottom:8px;}
+  
+  </style>
+  <div class="subArticle" style="color:#1A93A5">
+        <h3>SEND US AN ENQUIRY</h3>
+        <div>
+        <FORM>
+        Title & Name<br/>
+        <select>
+        	<option>Mrs</option>
+            <option>Mr</option>
+            </select>
+       <input type="text" placeholder="Name" name="name" size="15" />
+        <input type="text" placeholder="Surname" name="surname" size="15" /><br/>
+        Telephone<br/>
+        <input type="tel" placeholder="0123456789" name="tel" size="15" /><br/>
+        Email address<br/><input placeholder="John@Smith.co.uk" type="email" name="email" id="email" size="30" /><br/>
+        
+		Confirm email address<br/><input placeholder="John@Smith.co.uk" type="email" name="conemail" id="conemail" size="30" /><br/>
+        
+        Daughter's current school<br/>
+        <input type="text" placeholder="St Joseph's" name="school" id="school" size="20" /><br/>
+        Topic<br/>
+        <select>
+        <option>Admission</option>
+        <option>Admission1</option>
+        </select><br/>
+        
+        Comment or query<br/>
+        <textarea cols="30" rows="5" name="comment"></textarea><br/>
+        
+        <input type="submit" name="submit" value="Submit application" />
+        </FORM>
+        </div>
+         </div>
+      </div>
+  
+  </div>
+  
+  <footer>
+    <div style="height:auto; border-bottom:1px solid #1791a5; padding-bottom:5px;">
+      <div class="footerSub">
+        <h3>Contact Information</h3>
+        Generico School, <br/>
+        London,<br/>
+        N1 0BS<br/>
+        Telephone:<br/>
+        +44 (0) 20 7566 0190<br/>
+      </div>
+      <div class="footerSub">
+        <h3>Social Media</h3>
+        Connect and share with us on:<br/>
+        <img src="../images/twitter.png"/> <img src="../images/vimeo.png"/> <img src="../images/flickr.png"/> <img src="../images/youtube.png"/> </div>
+    </div>
+    <div style="height:auto; border-bottom:1px solid #1791a5; padding-bottom:5px;">
+      <div class="footerSub" style="width:100%">
+        <h3>Useful Links</h3>
+        <nav> <a href="#">School policies</a> <a href="#">GCSE results</a> <a href="#">A Level results</a> <a href="#">Site map</a> <a href="#">Terms & Conditions</a> <a href="#">Privacy policies</a> </nav>
+      </div>
+    </div>
+    <p align="center">All content © Generico School 2012 | <a href="#">Website design</a> by <a href="#">ckd</a></p>
+  </footer>
+</div>
+<!--! end of #container --> 
+
+<!-- JavaScript at the bottom for fast page loading --> 
+
+<!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary --> 
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> 
+<script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script> 
+
+<!-- scripts concatenated and minified via ant build script --> 
+<script src="js/helper.js"></script> 
+<!-- end concatenated and minified scripts--> 
+
+<!-- Debugger - remove for production --> 
+<!--<script src="https://getfirebug.com/firebug-lite.js"></script> --> 
+
+<!-- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID.
+       mathiasbynens.be/notes/async-analytics-snippet --> 
+<script>
+    var _gaq=[["_setAccount","UA-XXXXX-X"],["_trackPageview"]];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+    g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
+    s.parentNode.insertBefore(g,s)}(document,"script"));
+  </script>
+</body>
+</html>
